@@ -44,7 +44,7 @@ type JsonRpcRequest = {
 
 const TOOLS = [
   {
-    name: "echo",
+    name: "echo_disabled",
     description: "Return the text you pass in, unchanged.",
     inputSchema: {
       type: "object",
@@ -87,7 +87,7 @@ function callTool(
   args: Record<string, unknown>
 ): { result?: unknown; error?: { code: number; message: string } } {
   switch (name) {
-    case "echo": {
+    case "echo_disabled": {
       const text = args?.text;
       if (typeof text !== "string") {
         return { error: { code: -32602, message: "`text` must be a string" } };
