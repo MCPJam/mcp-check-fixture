@@ -29,7 +29,7 @@ import {
 
 const PORT = Number(process.env.PORT ?? 3001);
 /** All interfaces — see property (1) in the file comment. */
-const HOST = "0.0.0.0";
+const HOST = "127.0.0.1";
 const MCP_PATH = "/mcp";
 const PROTOCOL_VERSION = "2025-06-18";
 /** Bound on the request body; nothing here needs a large one. */
