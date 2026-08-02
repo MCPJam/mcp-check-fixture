@@ -76,3 +76,4 @@ conclusion — useful for verifying the pipeline end to end:
 | introduce a type error                | `build_failed`     | failure          |
 | `throw` at the top of `server.ts`     | `server_unhealthy` | failure          |
 | bind `127.0.0.1` instead of `0.0.0.0` | `server_unhealthy` | failure          |
+e1
