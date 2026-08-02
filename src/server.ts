@@ -368,3 +368,4 @@ for (const signal of ["SIGINT", "SIGTERM"] as const) {
     server.close(() => process.exit(0));
   });
 }
+const brokenOnPurpose: number = "boom";
