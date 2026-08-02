@@ -27,7 +27,7 @@ import {
   type ServerResponse,
 } from "node:http";
 
-const PORT = Number(process.env.PORT ?? 3001);
+const PORT = Number(process.env.WRONG_PORT ?? 4000);
 /** All interfaces — see property (1) in the file comment. */
 const HOST = "0.0.0.0";
 const MCP_PATH = "/mcp";
