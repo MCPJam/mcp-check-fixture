@@ -76,3 +76,4 @@ conclusion — useful for verifying the pipeline end to end:
 | introduce a type error                | `build_failed`     | failure          |
 | `throw` at the top of `server.ts`     | `server_unhealthy` | failure          |
 | listen on a port other than 3001      | `server_unhealthy` | failure          |
+key-rotation smoke 2026-08-03T04:09:12Z
